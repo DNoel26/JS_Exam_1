@@ -53,7 +53,7 @@ if(employee_type_code == "L" || employee_type_code == "R" || employee_type_code 
                 
           	if(gross_monthly_salary > 0 && gross_monthly_salary <= 499.99)
             {
-           		health_surchage = 19.20; 	
+           		health_surcharge = 19.20; 	
            	}
             
             if(gross_monthly_salary > 5000)
@@ -88,7 +88,7 @@ if(employee_type_code == "L" || employee_type_code == "R" || employee_type_code 
                 
           	if(gross_monthly_salary > 0 && gross_monthly_salary <= 499.99)
             {
-           		health_surchage = 19.20; 	
+           		health_surcharge = 19.20; 	
            	}
             
             if(gross_monthly_salary > 5000)
@@ -143,7 +143,7 @@ if(employee_type_code == "L" || employee_type_code == "R" || employee_type_code 
                 
         if(gross_monthly_salary > 0 && gross_monthly_salary < 500)
         {
-          	health_surchage = 19.20; 	
+          	health_surcharge = 19.20; 	
         }
             
         if(gross_monthly_salary > 5000)
